@@ -43,7 +43,7 @@ public class DBDumpToFile {
   
   public DBDumpToFile(String configFilePath) throws IOException {
     System.out.println(" ");
-    EMSEdiaDBDump.printLog("[INFO]DBDumpToFile : config file [" + configFilePath + "]");
+    EMSEdiaDBDump.printLog("[INFO]DBDumpToFile  : config file [" + configFilePath + "]");
     loadProperties(configFilePath);
     this.dbReader = new DBReader();
     fillCustQueryList();
